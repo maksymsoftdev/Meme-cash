@@ -1,0 +1,109 @@
+.new-button {
+  display: inline-block;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #1e183e;
+  border: 1px solid #7a5e15;
+  font-size: 16px;
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.close {
+  position: absolute;
+  right: 10px;
+  background-color: transparent;
+  overflow: hidden;
+  border: none;
+  outline: none;
+}
+input[type="file"] {
+  visibility: hidden;
+}
+.button-wrap {
+  position: relative;
+}
+#uploaded-img {
+  max-width: 100%;
+}
+.popup {
+  z-index: 10;
+}
+.openModal {
+  background-color: rgba(0, 0, 0, 0);
+  /* border: 1px solid #0000;
+  width: 30px;
+  
+  font-size: 30px;
+  font-weight: bolder; */
+  border: 2px solid#7E6B2F;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #1e173d;
+  margin-right: 0.5em;
+}
+.new-button:disabled,
+.new-button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+.image-box {
+  position: relative;
+  display: block;
+  max-width: 30%;
+}
+.loading-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: calc(100% - 6px);
+  background-color: rgba(245, 222, 179, 0.425);
+  color: rgb(245, 222, 179);
+  font-size: 3em;
+  left: 0px;
+}
+.loader {
+  position: absolute;
+  display: block;
+
+  /* transform: translate(-50%,-50%); */
+  /* transform-origin: -50% -50%; */
+  animation-name: spin;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.loader2 {
+  display: inline-block;
+  margin-right: 5px;
+
+  /* transform: translate(-50%,-50%); */
+  /* transform-origin: -50% -50%; */
+  animation-name: spin;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#error-in-uploading {
+  color: red;
+}
+#error-in-meme {
+  color: red;
+}
