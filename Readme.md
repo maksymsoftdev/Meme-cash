@@ -1,8 +1,8 @@
-# Meme-Cash -
+# Meme-Cash
 
 -  ### Update:
 The website is now hosted on IPFS. Please visit the link below:
-[MemeCash](https://jolly-star-4089.on.fleek.co/).
+[Meme-Cash](https://jolly-star-4089.on.fleek.co/).
 Note 1: This is just a cdn for http://ipfs.infura.io/ipfs/Qmcq3Zu7sdfyFRwcexFuiwTVf1fLwwsDRSn7GMzgJ1U3V2
 Note 2: In order to access this website, you need to have metamask extension installed in your browser.
   
@@ -96,7 +96,7 @@ Please try to follow these guidelines:
 
 4. Set your streams so you can sync your clone with the original repo (get the latest updates)
 
-	- [ ] <code>git remote add upstream https://github.com/NITJSR-OSS/MemeCash.git</code>
+	- [ ] <code>git remote add upstream https://github.com/maksymsoftdev/Meme-cash.git</code>
 
 	- [ ] <code>git pull upstream master</code>
 
